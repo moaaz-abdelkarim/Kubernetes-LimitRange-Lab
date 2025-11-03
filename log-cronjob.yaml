@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: log-task
+  namespace: limitrange-lab
+spec:
+  schedule: "* * * * *"   # runs every minute
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: log-task
+            image: busybox
+            imagePullPolicy: IfNotPresent
+            command: ["/bin/sh", "-c"]
+            args: ["echo $(date) - Task executed"]
+          restartPolicy: OnFailure
+  
