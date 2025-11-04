@@ -103,5 +103,5 @@ Build a Helm chart for easier deployment
 # 💬 Connect
 
 - GitHub: [@moaaz-abdelkarim](https://github.com/moaaz-abdelakrim)
-- LinkedIn: [Moaaz Farrag](https://linkedin.com/in/moaazfarrag)
+- LinkedIn: [Moaaz Farrag](https://www.linkedin.com/in/moaaz-farrag-b92367283/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 - Email: moaazfarra0@gmail.com
